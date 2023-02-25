@@ -1,0 +1,78 @@
+.bg {
+    background-color: #EFF5F5;
+}
+
+.notification {
+    background-color: navy;
+    border: 5px solid gold;
+    margin: 3% auto;
+    color: azure;
+    padding: 25px;
+}
+
+.notification h1 {
+    text-align: center;
+    color: gold;
+}
+
+.container-img img {
+    margin: 20px 0;
+    height: 240px;
+    width: 280px;
+}
+
+.contain-img img {
+    height: 70%;
+    margin: 50px;
+    width: 80%;
+}
+
+.box {
+    border: 1px solid black;
+    border-radius: 10px;
+    color: black;
+}
+
+.content {
+    text-align: center;
+    padding: 5px;
+    margin: 5px;
+}
+
+.content h2 {
+    background-color: gold;
+    border: 1px solid black;
+    border-radius: 10px;
+    color: navy;
+}
+
+#admin-btn {
+    text-decoration: none;
+}
+
+#btn-style {
+    background-color: navy;
+    color: gold;
+}
+
+#btn-style:hover {
+    border: 5px solid gold;
+    background-color: rgb(45, 45, 110);
+}
+
+#title-style {
+    background-color: gold;
+    color: navy;
+}
+
+#drop-style {
+    background-color: gold;
+    color: navy;
+    margin: 5px;
+}
+
+#drop-style:hover {
+    background-color: rgb(255, 174, 0);
+    color: navy;
+    margin: 5px;
+}
