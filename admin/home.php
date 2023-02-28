@@ -26,6 +26,9 @@
                     <li class="nav-item">
                         <a class="nav-link" href="https://www.manvaasam.in/">Products</a>
                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link btn btn-outline-warning" href="../newview/index.php">User Site</a>
+                    </li>
                 </ul>
             </div>
         </nav>
@@ -238,8 +241,6 @@
         }
     }
 ?>
-
-
 </section>
 
 <br><br><br><br><br>

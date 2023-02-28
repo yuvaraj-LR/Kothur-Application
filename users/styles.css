@@ -1,0 +1,412 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+* {
+    color: rgb(254, 255, 255);
+    font-family: 'Poppins';
+}
+
+
+/* Navbar */
+
+.navbar .navbar-brand {
+    font-size: 1.7rem;
+}
+
+.navbar .navbar-brand:hover {
+    border: none;
+    color: rgb(169, 241, 63);
+}
+
+.navbar .navbar-brand span {
+    color: #7ae721;
+}
+
+.navbar a {
+    color: rgb(254, 255, 255);
+    font-size: 1.1rem;
+    padding: auto 15px;
+    text-transform: uppercase;
+}
+
+.navbar-nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.navbar-nav>ul {
+    display: flex;
+}
+
+.navbar-nav>ul>li {
+    position: relative;
+    white-space: nowrap;
+    padding: 10px 0 10px 22px;
+}
+
+.navbar-nav a::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: -6px;
+    left: 0;
+    background: #71e215;
+    visibility: hidden;
+    width: 0px;
+    transition: all 0.3s ease-in-out;
+}
+
+.navbar-nav a:hover::before,
+.navbar-nav li:hover>a::before,
+.navbar-nav .active>a::before {
+    visibility: visible;
+    width: 100%;
+}
+
+.navbar-nav a:hover,
+.navbar-nav .active>a,
+.navbar-nav li:hover>a {
+    color: rgb(132, 231, 93);
+}
+
+.navbar-nav .active {
+    border-bottom: 5px solid rgb(130, 201, 25);
+    border-radius: 15px;
+    color: #79e71f;
+}
+
+
+/* Admin - Button */
+
+.get-started-btn {
+    margin-left: 25px;
+    color: #fff;
+    border-radius: 4px;
+    padding: 6px 25px 8px 25px;
+    white-space: nowrap;
+    transition: 0.3s;
+    font-size: 13px;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    border: 2px solid #7ae721;
+}
+
+.get-started-btn:hover {
+    background: #79e71f;
+    color: #fff;
+}
+
+
+/* Index Page */
+
+.index-section {
+    background-image: url("img/index.jpg");
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 10% 45% 8% 5%;
+    height: 100vh;
+    width: 100%;
+}
+
+.content-area {
+    margin-bottom: 15%;
+}
+
+.content-area h1 {
+    color: rgb(172, 241, 70);
+    font-family: 'Berkshire Swash', cursive;
+    font-size: 5rem;
+    letter-spacing: .40rem;
+    margin-bottom: 2px;
+    text-transform: uppercase;
+}
+
+.content-area h1:hover {
+    color: rgb(130, 201, 25);
+    cursor: grab;
+}
+
+#content-area {
+    font-family: 'Climate Crisis', cursive;
+    font-size: 2.1rem;
+    margin: 2px auto 4%;
+    text-transform: uppercase;
+}
+
+#content-area:hover {
+    color: rgb(247, 232, 232);
+}
+
+.content-area .carousel {
+    border: 2px double white;
+}
+
+
+/* Carousel Design */
+
+.carousel {
+    border: 3px solid green;
+    box-shadow: 0px 5px 10px 0px rgba(7, 220, 220), 1px 3px 4px 0px rgba(7, 220, 220);
+}
+
+.carousel:hover {
+    border: 3px solid cyan;
+    transition: 0.5s ease-in-out;
+    box-shadow: 0px 5px 10px 0px rgb(255, 242, 0), 1px 3px 4px 0px rgb(43, 220, 7);
+}
+
+.carousel-item {
+    font-family: 'Tilt Neon', cursive;
+    line-height: 2;
+    padding: 5%;
+}
+
+.carousel-item h1 {
+    color: chartreuse;
+    text-transform: uppercase;
+}
+
+.carousel-item h1:hover {
+    color: rgb(32, 255, 69);
+    transition: 0.5s ease-in-out;
+}
+
+
+/* Index Page Ends */
+
+
+/* About Page */
+
+.about-section {
+    background-image: url(img/about.jpg);
+    background-size: cover;
+    font-family: 'Lato', sans-serif;
+    height: auto;
+    padding: 8% 5% 3% 44%;
+    text-align: left;
+    width: 100%;
+}
+
+.about-section h1 {
+    color: #71e215;
+    font-size: 3rem;
+    text-transform: uppercase;
+}
+
+.about-section p {
+    line-height: 1.7;
+}
+
+
+/* About Page Ends */
+
+
+/* Contact Page  */
+
+.contact-section {
+    background-image: url(img/contact.jpg);
+    background-size: cover;
+    font-family: 'Lato', sans-serif;
+    height: auto;
+    padding: 9% 5% 8% 44%;
+    text-align: left;
+    width: 100%;
+}
+
+.contact-section h1 {
+    color: #71e215;
+    font-size: 3rem;
+    text-transform: uppercase;
+}
+
+.contact-section h1:hover {
+    color: #62c312;
+    cursor: pointer;
+}
+
+.form-control {
+    border-style: none;
+    background-color: black;
+    position: relative;
+    margin: 20px 0;
+    width: 32rem;
+}
+
+.form-control input {
+    border: 0;
+    border-bottom: 2px solid #333;
+    padding: 15px 0;
+    display: block;
+    font-size: 18px;
+    font-family: 'Muli', sans-serif;
+    width: 100%;
+    transition: 0.1s ease-in;
+}
+
+.form-control input:focus,
+.form-control input:valid {
+    border-bottom-color: #7ae721;
+    outline: none;
+}
+
+.form-control input:focus+label span,
+.form-control input:valid+label span {
+    color: #7ae721;
+    transform: translateY(-30px);
+}
+
+.form-control label {
+    position: absolute;
+    top: 15px;
+    left: 0;
+}
+
+.form-control label span {
+    display: inline-block;
+    font-size: 18px;
+    min-width: 5px;
+    transition: 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.form-row textarea {
+    background-color: black;
+}
+
+.contact-btn a {
+    color: #fff;
+    font-size: 1rem;
+    text-decoration: none;
+}
+
+.contact-btn {
+    background-color: #000;
+    color: #fff;
+    border-radius: 4px;
+    padding: 6px 25px 8px 25px;
+    white-space: nowrap;
+    transition: 0.3s;
+    font-size: 13px;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    border: 2px solid #7ae721;
+}
+
+.contact-btn:hover {
+    background: #79e71f;
+    color: #fff;
+}
+
+
+/* Contact Page Ends */
+
+
+/* Service Page */
+
+.service-section {
+    background-image: url("img/service.jpg");
+    background-size: cover;
+    text-align: center;
+    padding: 5% 10%;
+    height: auto;
+    width: 100%;
+}
+
+.service-section .service-heading h1 {
+    color: #71e215;
+    font-size: 2.7rem;
+    text-transform: uppercase;
+}
+
+.service-section .service-heading p {
+    padding-left: 8%;
+    margin-left: 8%;
+    width: 80%;
+}
+
+.service-section .service-btn {
+    background-color: #333;
+    border: 2px solid #79e71f;
+    color: #fff;
+    margin: auto 7px;
+    padding: 5px;
+    text-decoration: none;
+}
+
+.service-section .card h5 {
+    color: #79e71f;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+}
+
+.service-section .service-btn:hover {
+    background-color: #79e71f;
+    transition: 0.5s;
+}
+
+.service-section .card img:hover {
+    cursor: pointer;
+    transition: 0.5s ease-in;
+    transform: rotate(90);
+    width: 120%;
+}
+
+
+/* Service Page Ends */
+
+
+/* Travel Page Starts */
+
+.travel-section {
+    background-image: url("https://wallpaperaccess.com/full/13434.jpg");
+    background-size: cover;
+    text-align: center;
+    padding: 5% 10%;
+    height: 100vh;
+    width: 100%;
+}
+
+.travel-section .travel-content h1 {
+    color: #71e215;
+    font-size: 3rem;
+    text-transform: uppercase;
+}
+
+.travel-section .box {
+    border: 4px double greenyellow;
+    border-radius: 20px;
+    margin: 25px;
+    padding: 15px;
+    width: 45%;
+}
+
+.travel-section .content h2 {
+    color: #79e71f;
+    padding: 2% 1%;
+}
+
+.travel-section .content .dropdown .select {
+    background-color: #333;
+}
+
+form #btn-style {
+    background-color: #000;
+    color: #fff;
+    border-radius: 4px;
+    padding: 6px 25px 8px 25px;
+    margin-top: 4%;
+    white-space: nowrap;
+    transition: 0.3s;
+    font-size: 13px;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    border: 2px solid #7ae721;
+}
+
+form #btn-style:hover {
+    background: #79e71f;
+    color: #fff;
+}
