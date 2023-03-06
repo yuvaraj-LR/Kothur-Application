@@ -1,0 +1,71 @@
+       /* -----------Travel section--------- */
+       
+       @media (max-width: 767px) {
+           .travel-section .box {
+               width: 100%;
+               margin: 25px 0;
+               justify-content: center;
+               align-items: center;
+               font-size: 10px;
+           }
+           .travel-section {
+               background-image: url("https://wallpaperaccess.com/full/13434.jpg");
+               background-size: cover;
+               padding: 5% 10%;
+               height: 100%;
+               width: 100%;
+           }
+           .travel-section h1 {
+               margin-top: 10mm;
+           }
+           .travel-section .row {
+               display: flex;
+               flex-direction: column;
+               align-items: center;
+           }
+       }
+       /* -------contact us page--------- */
+       
+       @media only screen and (max-width: 768px) {
+           .contact-section h1 {
+               margin-top: 5mm;
+           }
+           .contact-section {
+               padding-left: 5px;
+           }
+           .form-control input[type="text"] {
+               width: 90%;
+           }
+           textarea {
+               width: 90%;
+           }
+           .form-row {
+               display: flex;
+               flex-wrap: wrap;
+               justify-content: flex-start;
+           }
+       }
+       /* -----------About section---------- */
+       
+       @media (max-width: 768px) {
+           .about-section .about-content {
+               padding-top: 5%;
+           }
+           .about-section .about-content h1 {
+               font-size: 2.7rem;
+               text-align: center;
+           }
+       }
+       /* -------------Home (INDEX) section---------- */
+       
+       @media (max-width: 768px) {
+           .index-section {
+               padding: 10% 5% 3% 5%;
+           }
+           .content-area h1 h2 {
+               font-size: 2px;
+           }
+           .index-section h1 {
+               margin-top: 5mm;
+           }
+       }

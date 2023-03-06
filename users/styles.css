@@ -76,6 +76,14 @@
 }
 
 
+/* Navbar mobile button */
+
+.navbar button {
+    background: #fff;
+    color: #fff;
+}
+
+
 /* Admin - Button */
 
 .get-started-btn {
