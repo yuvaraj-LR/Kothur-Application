@@ -1,6 +1,8 @@
 <?php include "header.php" ?>
 <title>Kothur || Home</title>
 <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="media.css">
+
 
 </head>
 
