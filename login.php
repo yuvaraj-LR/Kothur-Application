@@ -108,7 +108,7 @@
         $count = mysqli_num_rows($result);  
         
         if($count == 1){  
-            echo "<script> location.href='../admin/home.php'; </script>";
+            echo "<script> location.href='./admin/home.php'; </script>";
         }  
         else{  
             echo "<script>alert('Invalid Login! Check UserName and Password')</script> ";
